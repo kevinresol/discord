@@ -1,0 +1,5 @@
+bin
+externs
+node_modules
+
+.envrc

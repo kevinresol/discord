@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "discord-api-types": "^0.18.1",
+    "dts2hx": "^0.15.3"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
