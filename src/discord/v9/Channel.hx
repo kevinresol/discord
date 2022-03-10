@@ -24,9 +24,9 @@ typedef Button = {
 	final style:ButtonStyle;
 	final ?label:String;
 	final ?emoji:{
-		final name:String;
-		final id:Snowflake;
-		final animated:Bool;
+		final ?id:Snowflake;
+		final ?name:String;
+		final ?animated:Bool;
 	}
 	final ?custom_id:String;
 	final ?url:String;
