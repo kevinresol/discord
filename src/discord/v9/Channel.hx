@@ -3,9 +3,11 @@ package discord.v9;
 import discord.v9.types.Snowflake;
 import discord.v9.types.Message;
 
+typedef MessageResponse = tink.web.Response<Message>;
+
 interface Channel {
 	@:post('/messages')
-	function sendMessage(body:SendMessageRequest):Message;
+	function sendMessage(body:SendMessageRequest):MessageResponse;
 }
 
 typedef SendMessageRequest = {
